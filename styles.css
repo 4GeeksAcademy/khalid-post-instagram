@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.opciones{
+   align-items: flex-end;
+}
