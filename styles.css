@@ -4,10 +4,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .post {
   width: 600px;
+  weight:800px;
   background-color: white;
 }
 
@@ -17,11 +20,15 @@ body {
   justify-content: space-between;
   padding: 10px 15px;
 }
+.izquierda{
+  align-items: center;
+  display:flex;
+  gap: 5px;
+}
 
 .post-img {
   width: 100%;
-  height: 400px;          
-  overflow: cover;      
+  height: 400px;                
 }
 
 .post-img img {
@@ -31,19 +38,23 @@ body {
   display: block;
 }
 
-/* ----- Cuerpo del post ----- */
 .post-body {
   padding: 10px 15px;
 }
 
-.post-body i {
-  font-size: 22px;
-  margin-right: 10px;
-  cursor: pointer;
+.opciones{
+  display:flex;
+  justify-content: space-between;
+}
+.interacciones{
+  display:flex
 }
 
-.post-body p {
+i {
+  font-size: 45px; 
+}
+
+p {
   font-size: 14px;
-  color: #262626;
-  line-height: 1.4;
+  color: black; 
 }
